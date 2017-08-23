@@ -52,7 +52,7 @@ public class HTTPReqGenTest implements ITest {
     XSSFSheet outputSheet = null;
     XSSFSheet comparsionSheet = null;
     XSSFSheet resultSheet = null;
-
+    String path = "/Users/mff/Desktop/InterfaceTest.xlsx";
     private double totalcase = 0;
     private double failedcase = 0;
     private String startTime = "";
@@ -60,8 +60,8 @@ public class HTTPReqGenTest implements ITest {
 
 
     @BeforeTest
-    @Parameters("workBook")
-    public void setup(String path) {
+    //@Parameters("workBook")
+    public void setup() {
         filePath = path;
         try {
             wb = new XSSFWorkbook(new FileInputStream(filePath));

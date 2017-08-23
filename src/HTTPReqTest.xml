@@ -14,8 +14,7 @@
     <test name="Test">
         <classes>
             <parameters>
-                <parameter name="username" value="爱学派D"/>
-                <parameter name="pwd" value="a11111"/>
+                <parameter name="path" value="/Users/mff/Desktop/InterfaceTest.xlsx"/>
             </parameters>
             <!--注释 <class name="iosTest.TeacherLoginTest"/>
            注释
